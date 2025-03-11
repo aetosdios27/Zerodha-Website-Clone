@@ -1,0 +1,92 @@
+.zerodha-header-logo{
+    height: 18px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-bottom: 25px;
+}
+
+.header-nav{
+    display: flex;
+    margin-right: 220px;
+    margin-top: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+.nav-link:hover{
+    color: #387ed1;
+    transition-duration: 0.5s;
+}
+
+.zerodha-landing-image{
+    width: 760px;
+    height: 320px;
+}
+
+.landing-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.landing-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.landing-title{
+    font-size: 40px;
+    color: #0e0e0e;
+}
+
+.landing-description{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    color: #0e0e0e;
+}
+
+.landing-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #387ed1;
+    color: white;
+    border: none;
+    border-radius: 2.5px;
+    font-weight: bold;
+    font-size: 25px;
+}
